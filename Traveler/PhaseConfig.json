@@ -1,0 +1,23 @@
+{
+  "FindingDestination": {
+    "assistant_role_name": "Travel Exporter",
+    "user_role_name": "Chief Executive Officer",
+    "phase_prompt": [
+      "We are super effective at finding travel destinations for clients.",
+      "As the {assistant_role}, to satisfy the new user's demand and you should keep discussing with me to decide which travel destinations are best suited for a road trip.",
+      "Note that we must ONLY discuss the travel destinations and do not discuss anything else! Once we all have expressed our opinion(s) and agree with the results of the discussion unanimously, any of us must actively terminate the discussion by replying with only one line, which starts with a single word <INFO>, followed by our final travel destinations without any other words, e.g., \"<INFO> 춘천\"."
+    ]
+  },
+  "PlanningTravel": {
+    "assistant_role_name": "Planner",
+    "user_role_name": "Chief Executive Officer",
+    "phase_prompt": [
+      "According to the new user's task and some creative brainstorm ideas listed below: ",
+      "Task: \"{task}\".",
+      "destination: \"{destination}\".",
+      "We have  to complete the task through a planning travel",
+      "As the {assistant_role}, to satisfy the new user's demand and arrange regional tourist spots in order of accessibility by car. You also provide parking information and nearby restaurant details for each tourist spot.",
+      "Note that we must ONLY discuss the travel plan and do not discuss anything else! Once we all have expressed our opinion(s) and agree with the results of the discussion unanimously, any of us must actively terminate the discussion and show the plan we have discussed without any other words or reasons, return only one line using the format: \"<INFO> *\" 춘천 \"*\" 송파에서 출발하는 경우 2시간 걸립니다. 케이블카를 탈 수 있어요."
+    ]
+  }
+}

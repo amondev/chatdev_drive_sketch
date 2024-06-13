@@ -1,0 +1,28 @@
+{
+    "chain": [{
+            "phase": "FindingDestination",
+            "phaseType": "SimplePhase",
+            "max_turn_step": -1,
+            "need_reflect": "True"
+        },
+        {
+            "phase": "PlanningTravel",
+            "phaseType": "SimplePhase",
+            "max_turn_step": -1,
+            "need_reflect": "True"
+        }
+    ],
+    "recruitments": [
+        "Chief Executive Officer",
+        "Travel Exporter",
+        "Planner"
+    ],
+    "clear_structure": "True",
+    "gui_design": "True",
+    "git_management": "False",
+    "web_spider": "False",
+    "self_improve": "False",
+    "incremental_develop": "False",
+    "with_memory": "False",
+    "background_prompt": "ChatDev is a travel company powered by multiple intelligent agents, such as chief executive officer, travel exporter, planner, with a multi-agent organizational structure and the mission of 'plan for the road trip'."
+}
